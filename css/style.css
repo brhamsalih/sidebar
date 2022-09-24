@@ -13,6 +13,7 @@
     align-items: center;
     background: #3d4152;
 }
+/*Sidebar Style*/
 .navigation{
     position: fixed;
     inset: 20px 0 20px 20px;
@@ -115,7 +116,7 @@
     background: var(--color);
 }
 .navigation ul li.active a .icon{
-    opacity: 0;
+    opacity: 1;
 }
 .navigation ul li a .icon::before{
     content: '';
@@ -148,3 +149,4 @@
 .navigation ul li.active a .text{
     color: var(--color);
 }
+
